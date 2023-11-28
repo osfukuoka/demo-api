@@ -4,9 +4,9 @@ namespace api;
 class UsersApiService
 {
     private $userList = [
-        ["name" => "yamada", "age" => 20],
-        ["name" => "suzuki", "age" => 25],
-        ["name" => "matsuda", "age" => 30]
+        ["id" => "01", "name" => "yamada", "passwd" => "test01"],
+        ["id" => "02", "name" => "suzuki", "passwd" => "test02"],
+        ["id" => "03", "name" => "tanaka", "passwd" => "test03"]
     ];
     private $statusCode = 200;
     private $res = [];
